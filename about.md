@@ -8,7 +8,7 @@ Salut! Moi c'est Samir, étudiant en informatique, plus précisement en Génie L
 Passioné d'algorithmique, je participe donc à des concours de programmation.
 
 Ce blog me servira à partager mes solutions aux différents concours auxquels je participe.
-Bienvenu et, j'espère que vous pendrez plaisir
+Bienvenu et, j'espère que vous pendrez plaisir!
 
 
 
