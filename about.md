@@ -1,15 +1,16 @@
 ---
 layout: page
-title: About
+title: A propos
 permalink: /about/
 ---
 
-Some information about you!
+Salut! Moi c'est Samir, étudiant en informatique, plus précisement en Génie Logiciel.
+Passioné d'algorithmique, je participe donc à des concours de programmation. Ce blog 
+me servira à partager mes solutions aux différents concours auxquels je participe.
+Bienvenu et, j'espère que vous pendrez plaisir
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
+### Contactez moi
 
-[email@domain.com](mailto:email@domain.com)
+[codexpress10@gmail.com](mailto:email@domain.com)
