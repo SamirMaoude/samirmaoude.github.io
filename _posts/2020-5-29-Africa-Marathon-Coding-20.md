@@ -31,7 +31,7 @@ Print a blank line after each data set case.
 
 5 
 
-2x + 3 = 4 x = 0.500000
+2x + 3 = 4
 
 124x + 20 = 160
 
