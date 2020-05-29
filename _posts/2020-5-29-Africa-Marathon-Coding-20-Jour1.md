@@ -71,7 +71,7 @@ More than one solution.
 
 
 ### Réflexion
-Facile! Vous me direz! Eh ben non, personne , n'a résolu cet exercice. Il y avit un petit piège. En faite quand on affiche simplement le résultat de (c-b)/a, pour certains cas on a une erreur de précision. Il fallait donc contourner ce problème en récupérant la partie entière et la partie décimale à l'aide d'un modulo.
+Facile! Vous me direz! Eh ben non, personne , n'a résolu cet exercice. Il y avait un petit piège. En faite quand on affiche simplement le résultat de (c-b)/a, pour certains cas on a une erreur de précision. Il fallait donc contourner ce problème en récupérant la partie entière et la partie décimale (à l'aide d'un modulo).
 Nous avons donc les formules suivantes:
 
 *-partieEntiere= (c-b) / a*
@@ -205,7 +205,7 @@ VOTE 2: THERE IS A DILEMMA
   
 
 ### Réflexion
-Ici, pas de difficulté, il fallait utiliser un tableau associatif(map en c++) dans lequel on stock les votes de chaque candidat puis à la fin il faut trier le tableau par ordre décroissant. Si les deux premiers éléments du tableau ont le même nombre de votes, on affiche qu'il y a un dilemme, sinon le nom du premier éléments dans le tableau.
+Ici, pas de difficulté, il fallait utiliser un tableau associatif(map en c++) dans lequel on stock les votes de chaque candidat puis à la fin il faut trier le tableau par ordre décroissant. Si les deux premiers éléments du tableau ont le même nombre de votes, on affiche qu'il y a un dilemme, sinon le nom du premier élément dans le tableau.
 
 Voici ma solution:
 ```cpp
@@ -292,7 +292,7 @@ Voici ma solution:
 Do you know a game called “La cave aux énigmes”? One of its questions is to find the number of squares contained in a grid square of length l. A grid square of length 4 will look like this:
 
 
-![_config.yml]({{ site.baseurl }}/images/AMCC/square.png)
+![square]({{ site.baseurl }}/images/AMCC/square.png)
 
 The total number of squares that can be seen in this image is 30. Your task is to find the total number of squares which can be seen in an image of a grid square of length l. 
 
@@ -333,6 +333,13 @@ For each integer l, you should output the total number of squares which can be s
 ### Réflexion
 
 Certains ont peut-être trouvé une formule ici mais moi j'ai vu un pattern que je me suis contenté d'implémenter. En réalité, on remarque que le résultat pour une taille n, est le résultat de n-1 auquel on ajoute n*n.
+
+On a donc une suite définie par:
+
+***f(n)=1*** pour n=1
+
+***f(n) = f(n-1)+n\*n*** pour n>1
+
 
 Voici ma solution:
 ```cpp
@@ -430,7 +437,7 @@ AB 4444 RB
 
 ### Réflexion
 
-Ici, je pense que la difficulté était d'extraire la série de 4 lettres. Puisque l'entrée était sur le format *A B C*, j'ai déclaré trois string A, B, C et je n'avais plus que B à traîter.
+Ici, je pense que la difficulté était d'extraire la série de 4 chiffres. Puisque l'entrée était sur le format **A B C**, j'ai déclaré trois string A, B, C et je n'avais plus que B à traîter.
 
 Voici ma solution:
 
@@ -514,6 +521,3 @@ Voilà nous sommes à la fin de cet article, j'espère qu'il vous aura plus. N'h
 
 
 
-<!--[_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.-->
