@@ -22,7 +22,9 @@ The first line of input contains a single integer P, (1 ≤ P ≤ 1000), which i
 For each data set, generate two lines of output. The first line will contain “Equation n” where n is the number of the data set. The second line will contain the following answer: 
  
 -If the equation has no solution, print "No solution.".
+
 -If the equation has infinitely many solutions, print "More than one solution.".
+
 -If the equation has exactly one solution, print "x = solution" where solution is replaced by the appropriate real number (printed to six decimals).
  
 Print a blank line after each data set case.
@@ -123,10 +125,10 @@ Voici ma solution:
                     ll int partiEntiere=(c-b)/a;
                     ll int partieDecimale=abs(c-b)%a*1000000/a;
                     if(partiEntiere==0 && c-b<0)
-                        printf("x = -%lld.%6lld\n\n",partiEntiere,partieDecimale );
+                        printf("x = -%lld.%06lld\n\n",partiEntiere,partieDecimale );
                     else
                     {
-                        printf("x = %lld.%6lld\n\n",partiEntiere,partieDecimale );
+                        printf("x = %lld.%06lld\n\n",partiEntiere,partieDecimale );
                     }
                     
 
