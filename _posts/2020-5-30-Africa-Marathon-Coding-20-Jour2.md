@@ -72,13 +72,13 @@ D'après les constantes du sujet, on a:
 
 On déduit donc que: ***1 mile ---> 5280\*12 inches***
 
-Notre cycliste parcourt en réalité le pourtour du cercle R fois.
+Notre cycliste a parcourt en réalité le pourtour du cercle R fois.
 
 La distance voulue est donc **distance= D\*pi\*R** (en inches).
 
 Il ne reste plus qu'à la convertir en miles.
 
-Sachant désormais ***1 mile ---> 5280\*12 inches***, en appliquant la règle de trois a notre distance, on établit:
+Sachant désormais ***1 mile ---> 5280\*12 inches***, en appliquant la règle de trois à notre distance, on établit:
 
 **distance= D\*pi\*R/(5280\*12)**
 
@@ -139,7 +139,6 @@ int main()
 
 ```
 
-Pas si évident en fin de compte. Ah cet exercice, on s'en souviendra longtemps.
 
 ## Problem B: Binary numbers 
 
@@ -459,7 +458,7 @@ int main()
 
 ```
 
-Au jour 2, j'ai résolu 2 exercices, ce qui m'a valu la 11 place du classement final.
+Au jour 2, j'ai résolu 2 exercices, ce qui m'a valu la place 18 au classement final.
 
 Voilà nous sommes à la fin de cet article, j'espère qu'il vous aura plus. N'hésitez pas à le partager et à me suivre sur [facebook](https://www.facebook.com/Samir-Maoude-100925784983877?_rdc=1&_rdr) et [twitter](https://twitter.com/MaoudeSamir) pour être au courant de mes prochaines publications.
 
