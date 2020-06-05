@@ -168,7 +168,7 @@ For each data set there is one line of output. The single output line consists o
 
 ### Réflexion
 
-On vous donne un nombre décimal X en entrée , si X peut être interprèté comme un nombre octal alors vous devez afficher
+On vous donne un nombre décimal X en entrée , si X peut être interprété comme un nombre octal alors vous devez afficher
 
 **X en base 10, X et X en base 16**
 
