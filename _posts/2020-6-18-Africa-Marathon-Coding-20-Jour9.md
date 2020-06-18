@@ -121,7 +121,7 @@ For each test case, output a line containing “Yes” or “No” depending on 
 
 ### Réflexion
 
-Ici on veut véfifier la validité des cates bancaires. On fera donc une fonction qui vérifie les conditions ci-dessus et afficher **YES** si la carte est valide et **NO** si elle ne l'est pas.
+Ici on veut vérifier la validité des cartes bancaires. On fera donc une fonction qui vérifie les conditions ci-dessus et afficher **YES** si la carte est valide et **NO** si elle ne l'est pas.
 
 ### SOLUTION C++:
 
