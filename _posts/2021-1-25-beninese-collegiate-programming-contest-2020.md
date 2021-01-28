@@ -498,7 +498,7 @@ Also, can you sort the word S for Lama to make it easier for her to write?
 
 ### Input 
 
-The first -and only- line of input has the string S (1 ≤ |S| ≤ 10<sup>5</sup>) - the word Lama wants to write.
+<p>The first -and only- line of input has the string S (1 ≤ |S| ≤ 10<sup>5</sup>) - the word Lama wants to write.</p>
 
 ### Output 
 
