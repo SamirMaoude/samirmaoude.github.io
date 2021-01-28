@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beninese Collegiate Programming Contest
+title: The Beninese Collegiate Programming Contest
 ---
 Solutions des problèmes résolus par mon équipe.
 
