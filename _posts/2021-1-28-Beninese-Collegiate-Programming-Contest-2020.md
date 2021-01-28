@@ -226,11 +226,11 @@ Print one integer, the answer to this problem.
 
 Ce problème présentait un **ENORME** pic de difficulté par rapport aux précédents. C'était le problème que j'ai le plus aimé, en plus nous étions la seule équipe à l'avoir réussi.
 
-Pour ce problème, on avait en entrée une matrice carrée de d'ordre **N** et il fallait trouver le nombre de matrices carrées d'ordre **X** contenues dans cette dernière et dont la **rotation de 90 degrés** dans le sens horaire donne toujours la même matrice.
+Pour ce problème, on avait en entrée une matrice carrée d'ordre **N** et il fallait trouver le nombre de matrices carrées d'ordre **X** contenues dans cette dernière et dont la **rotation de 90 degrés** dans le sens horaire donne toujours la même matrice.
 
 On cherche donc les matrices Mi dont <span style="color:#e83e8c; background-color: #e4dcdc9e;">**Rotation**(Mi) = Mi</span>.
 
-Prenons l'exemple 1 et vérifions tout les matrices carrées d'ordre valides:
+Prenons l'exemple 1 et vérifions tout les matrices carrées d'ordre 2 valides:
 
 ![m1]({{ site.baseurl }}/images/BCPC/r1.png)
 ![m2]({{ site.baseurl }}/images/BCPC/r2.png)
@@ -409,7 +409,7 @@ On nous donne une grille de taille N*M et lorsque l'on touche une case, elle et 
 
 Sachant que toutes les cases sont coloriées en blanc au début, on nous donne une série de cases qui ont été touchées et nous devons afficher l'état de la grille à la fin.
 
-On considérer les cases comme des lampes, Si elles sont allumées(1) on les éteint(0) et vice-versa.
+On peut considérer les cases comme des lampes, Si elles sont allumées(1) on les éteint(0) et vice-versa.
 
 Supposons qu'on touche une case de coordonnées i, j;
 
