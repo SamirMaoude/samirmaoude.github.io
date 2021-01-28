@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <div style="text-align:justify;">Beninese Collegiate Programming Contest</div>
+title: Beninese Collegiate Programming Contest
 ---
 Solutions des problèmes résolus par mon équipe.
 
